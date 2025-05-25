@@ -1,0 +1,30 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore model output and checkpoints
+llama-hooshdad-finetuned/
+logs/
+*.ckpt
+*.pt
+*.bin
+*.h5
+
+# Ignore datasets and intermediate files
+*.jsonl
+*.tmp
+*.log
+
+# Ignore environment files
+.env
+.env.*
+*.env
+*.ipynb_checkpoints/
+
+# Ignore Hugging Face cache
+~/.cache/huggingface/
+
+# ⚠️ Ignore secret tokens
+Token.txt
+token.txt
+hf_token.txt
